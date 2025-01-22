@@ -1,0 +1,32 @@
+# APPRENDRE PAR LA PRATIQUE
+
+**Exercice : Gestion d'une liste de tâches (To-Do List) Exercice-1**
+
+**Objectif :**
+Créer une application simple de gestion de tâches en utilisant 
+les fonctionnalités d'ES6, notamment les classes, les modules, 
+les fonctions fléchées et les méthodes des tableaux.
+
+**Instructions :**
+
+1. **Initialisation du projet :**
+    - Créez un nouveau dossier pour votre projet et 
+    initialisez-le avec un fichier `index.html`, un fichier `style.css` et un fichier `app.js`.
+2. **Structure HTML :**
+    - Dans `index.html`, créez une structure de base comprenant :
+        - Un champ de saisie pour ajouter une nouvelle tâche.
+        - Un bouton pour ajouter la tâche.
+        - Une liste non ordonnée (`<ul>`) pour afficher les tâches.
+3. **Styles CSS :**
+    - Dans `style.css`, ajoutez des styles de base pour rendre l'application visuellement agréable.
+4. **Fonctionnalités JavaScript :**
+    - Dans `app.js`, implémentez les fonctionnalités suivantes en utilisant ES6 :
+        - **Classe `Task` :**
+            - Créez une classe `Task` avec les propriétés `id`, `description` et `completed`.
+            - Ajoutez une méthode pour basculer l'état de complétion de la tâche.
+        - **Gestionnaire de tâches :**
+            - Créez un tableau pour stocker les instances de `Task`.
+            - Implémentez des fonctions pour ajouter, supprimer et afficher les tâches.
+        - **Interaction avec le DOM :**
+            - Utilisez les fonctions fléchées pour les gestionnaires d'événements.
+            - Ajoutez des écouteurs d'événements pour gérer l'ajout de tâches et le marquage comme complété.

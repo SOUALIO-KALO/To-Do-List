@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <form action="">
+      <fieldset>
+        <legend>ajouter</legend>
+        <input type="text" name="" id="add" />
+        <button id="btn" type="button">Ajouter</button>
+      </fieldset>
+    </form>
+    <ul id="items"></ul>
+    <script>
+      const valeur = document.getElementById("add");
+      const btnAdd = document.getElementById("btn");
+      const list = document.getElementById("items");
+
+      btnAdd.addEventListener("click", () => {
+        const item = document.createElement("li");
+        item.textContent = valeur.value;
+        list.appendChild(item);
+        document.getElementById("add").value = "";
+      });
+    </script>
+  </body>
+</html>
